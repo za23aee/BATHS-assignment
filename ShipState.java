@@ -4,11 +4,11 @@ import java.io.*;
 /**
  * Enumeration class UnitState - write a description of the enum class here
  * 
- * @author A.Marczyk
+ * @author Zeynep
  * @version 12/02/2025
  */
 
-     
+public class ship{
  private String name;
  private String captain;
  private int battleskill;
@@ -49,4 +49,11 @@ public enum ShipState implements Serializable
     {
         return state;
     }
+}
+
+
+public static void main(String[] args){
+
+    
+}
 }
